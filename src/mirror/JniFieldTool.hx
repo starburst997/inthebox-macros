@@ -64,7 +64,7 @@ using tools.MetadataTools;
  		}
 
  		var splitted = result.split('.');
- 		if (!hasFileName)
+ 		/*if (!hasFileName)
  		{
  			if (metas.has(TagDefaultClassName))
  			{
@@ -84,7 +84,7 @@ using tools.MetadataTools;
  			{
  				splitted.push(Context.getLocalClass().get().name);
  			}
- 		}
+ 		}*/
 
  		result = splitted.join("/");
  		
